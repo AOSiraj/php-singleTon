@@ -1,6 +1,6 @@
 # php-singleTon
 ## Example Implementation in Module.php (zend 2)
-`public function getServiceConfig()
+``public function getServiceConfig()
  {
      return array(
          "factories" => array(
@@ -10,4 +10,4 @@
               }
           )
       );
-  }`
+  }``
