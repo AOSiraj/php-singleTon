@@ -1,6 +1,7 @@
 class AuthenticationService
 {
     private $config;
+    //static instance of inself
     public static $instance = null;
     protected function __construct($config) {
         $this->config = $config;
