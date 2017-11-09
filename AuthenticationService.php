@@ -15,7 +15,7 @@ class AuthenticationService
     }
 
     public function getSurveyMonkeyAccessToken(){
-        $token = "Bearer ".$this->config['survey_monkey_token'];
+        $token = "Bearer ".$this->config['token'];
         return $token;
     }
 }
