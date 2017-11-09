@@ -3,10 +3,10 @@
 `public function getServiceConfig()
  {
      return array(
-         'factories' => array(
+         "factories" => array(
 
-             'MyPackage\Service\AuthenticationService' => function ($sm) {
-                  return AuthenticationService::instantiate($sm->get('config')['messaging_server']);
+             "MyPackage\Service\AuthenticationService" => function ($sm) {
+                  return AuthenticationService::instantiate($sm->get("config")["messaging_server"]);
               }
           )
       );
