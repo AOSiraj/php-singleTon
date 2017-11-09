@@ -14,7 +14,7 @@ class AuthenticationService
         return self::$instance;
     }
 
-    public function getSurveyMonkeyAccessToken(){
+    public function getAccessToken(){
         $token = "Bearer ".$this->config['token'];
         return $token;
     }
